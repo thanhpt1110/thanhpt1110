@@ -22,5 +22,5 @@
 <p align="left">
     <a href="https://fb.com/thanhpt1110" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="thanhpt1110" height="30" width="40" /></a>
     <a href="https://instagram.com/thanhpt1110" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="thanhpt1110" height="30" width="40" /></a>
-    <a href="https://www.youtube.com/c/@thanhpt1110" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@thanhpt1110" height="30" width="40" /></a>
+    <a href="https://www.youtube.com/@thanhpt1110" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@thanhpt1110" height="30" width="40" /></a>
 </p>
