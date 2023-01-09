@@ -1,5 +1,5 @@
 ![MasterHead](https://github.com/thanhpt1110/thanhpt1110/blob/master/cover.png)
-<h4 align="center">A little boy who enjoys himself on Music 🎶 and E-sport 🎮</h4>
+<h4 align="center">A little boy who enjoys himself in Music 🎶 and E-sport 🎮</h4>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=thanhpt1110&label=Visitors&color=38ba5e&style=plastic" alt="thanhpt1110" width = "150" height =/> </p>
     
