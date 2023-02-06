@@ -14,8 +14,8 @@
 &nbsp;
 
 <h2 align="left">🔥 Github Stats 🔥</h2>
-<p><img width="400" align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=thanhpt1110&show_icons=true&text_color=ffffff&bg_color=000000&hide_border=true&locale=en&layout=compact" alt="thanhpt1110" /></p>
-<p>&nbsp;<img width="400"align="left" src="https://github-readme-stats.vercel.app/api?username=thanhpt1110&show_icons=true&title_color=FF7F01&text_color=ffffff&bg_color=000000&hide_border=true&locale=en" alt="thanhpt1110" /></p>
+<p><img width="400" align="left" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=thanhpt1110&show_icons=true&text_color=ffffff&bg_color=000000&hide_border=true&locale=en&layout=compact" alt="thanhpt1110" /></p>
+<p>&nbsp;<img width="400"align="left" src="https://github-readme-stats-sigma-five.vercel.app/api?username=thanhpt1110&show_icons=true&title_color=FF7F01&text_color=ffffff&bg_color=000000&hide_border=true&locale=en" alt="thanhpt1110" /></p>
 <p><img width="820"align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=thanhpt1110&theme=highcontrast" alt="thanhpt1110" /></p>
 
 <h2 align="left">🔍 You can find me at 🔍</h2>
