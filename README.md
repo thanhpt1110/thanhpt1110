@@ -1,5 +1,5 @@
 ![MasterHead](https://github.com/thanhpt1110/thanhpt1110/blob/master/cover.png)
-<h4 align="center">A little boy who enjoys himself in Music 🎶 and E-sport 🎮</h4>
+<h4 align="center">A little boy who enjoys himself in Music 🎶 and E-sport 🎮</h4>          
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=thanhpt1110&label=Visitors&color=38ba5e&style=plastic" alt="thanhpt1110" width = "150" height =/> </p>
     
@@ -7,6 +7,12 @@
 <span><img src="https://img.shields.io/badge/C%20Sharp-282C34?logo=c-sharp&logoColor=239120" alt="C Sharp logo" title="C Sharp" height="25" /></span>
 &nbsp;
 <span><img src="https://img.shields.io/badge/C++-282C34?logo=cplusplus&logoColor=00599C" alt="C++ logo" title="C++" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Java-282C34?logo=openjdk&logoColor=FFFFFF" alt="Java logo" title="Java" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/XAML-282C34?logo=xaml&logoColor=0C54C2" alt="XAML logo" title="XAML" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Firebase-282C34?logo=firebase&logoColor=FFCA28" alt="Firebase logo" title="Firebase" height="25" /></span>
 &nbsp;
 <span><img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-282C34?logo=microsoft-sql-server&logoColor=CC2927" alt="Microsoft SQL Server logo" title="Microsoft SQL Server" height="25" /></span>
 &nbsp;
@@ -23,4 +29,5 @@
     <a href="https://fb.com/thanhpt1110" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="thanhpt1110" height="30" width="40" /></a>
     <a href="https://instagram.com/thanhpt1110" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="thanhpt1110" height="30" width="40" /></a>
     <a href="https://www.youtube.com/@thanhpt1110" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@thanhpt1110" height="30" width="40" /></a>
+    <a href="https://https://soundcloud.com/thanhpt1110" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/soundcloud.svg" alt="@thanhpt1110" height="30" width="40" /></a>
 </p>
