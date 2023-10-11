@@ -32,5 +32,5 @@
 </p>
 
 ###
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=thanhpt1110&label=Visitors&color=38ba5e&style=plastic" alt="thanhpt1110" width = "120"/> </p>
+<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=thanhpt1110&label=Visitors&color=38ba5e&style=plastic" alt="thanhpt1110" width = "120"/> </p> -->
     
