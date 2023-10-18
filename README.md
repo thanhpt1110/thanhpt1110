@@ -2,8 +2,8 @@
 <!-- <h4 align="center">A little boy who enjoys himself in Music 🎶 and E-sport 🎮</h4>           -->
 <h2 align="left">🙋‍♂️ About me 🙋‍♂️</h2>        
 <ul>        
-    <li> ✍ I am currently a Software Engineering student studying a Bachelor's degree at the University of Information Technology. </li>
-    <li> 👨‍💻 I have a passion for making complete applications and websites, from analysis to implementation, with a particular emphasis on user experience.</li>
+    <li>✍ I am currently pursuing a Bachelor's degree in <b>Software Engineering</b> at the <a href="https://uit.edu.vn">University of Information Technology.</a></li>
+    <li> 👨‍💻 I'm deeply passionate about developing full applications and websites, with a strong focus on user experience, covering every stage from analysis to implementation.</li>
     <li> 🎮 Besides my coding time, I often enjoy myself in music and e-sports.</li>
     <li> 📧 Contact me for work: <a href="mailto:thanhphantuan1110@gmail.com">thanhphantuan1110@gmail.com</a>
 </li>
@@ -62,9 +62,9 @@
     <span><img src="https://img.shields.io/badge/Foundation of User Experience (UX) Design-282C34?logo=coursera&logoColor=0056D2" alt="Git logo" title="Git" height="25" /></span>
 </a>
 
-<h2 align="left">🔥 Github Stats 🔥</h2>
+<!-- <h2 align="left">🔥 Github Stats 🔥</h2> -->
 <!-- <p><img width="100%" align="left" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=thanhpt1110&show_icons=true&text_color=ffffff&bg_color=000000&hide_border=true&locale=en&layout=compact" alt="thanhpt1110" /></p> -->
-<p>&nbsp;<img height="60%" width="75%" align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=thanhpt1110&show_icons=true&title_color=FF7F01&text_color=ffffff&bg_color=000000&hide_border=true&locale=en" alt="thanhpt1110" /></p>
+<!-- <p>&nbsp;<img height="60%" width="75%" align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=thanhpt1110&show_icons=true&title_color=FF7F01&text_color=ffffff&bg_color=000000&hide_border=true&locale=en" alt="thanhpt1110" /></p> -->
 <!-- <p><img width="820"align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=thanhpt1110&theme=highcontrast" alt="thanhpt1110" /></p> -->
 
 <h2 align="left">🔍 You can find me at 🔍</h2>
