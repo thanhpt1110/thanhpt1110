@@ -62,7 +62,6 @@
     <span><img src="https://img.shields.io/badge/Foundation of User Experience (UX) Design-282C34?logo=coursera&logoColor=0056D2" alt="Git logo" title="Git" height="25" /></span>
 </a>
 
-
 <!-- <h2 align="left">🔥 Github Stats 🔥</h2> -->
 <!-- <p><img width="100%" align="left" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=thanhpt1110&show_icons=true&text_color=ffffff&bg_color=000000&hide_border=true&locale=en&layout=compact" alt="thanhpt1110" /></p> -->
 <!-- <p>&nbsp;<img height="60%" width="75%" align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=thanhpt1110&show_icons=true&title_color=FF7F01&text_color=ffffff&bg_color=000000&hide_border=true&locale=en" alt="thanhpt1110" /></p> -->
