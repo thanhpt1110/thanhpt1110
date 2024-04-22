@@ -83,7 +83,7 @@
 
 <a href="https://www.coursera.org/account/accomplishments/certificate/ZPA472KU4PUU">
     <span><img src="https://img.shields.io/badge/Foundation%20of%20User%20Experience%20(UX)%20Design-0056D2?style=for-the-badge&logo=Coursera&logoColor=white&labelColor=0056D2&style=flat" alt="Foundation of User Experience (UX) Design" title="Git" height="25" /></span>
-</a></br> 
+</a></br>
 
 # 📊 GitHub Stats :
 ![](https://github-readme-stats.vercel.app/api?username=thanhpt1110&theme=react&hide_border=false&include_all_commits=false&count_private=true)<br/>
