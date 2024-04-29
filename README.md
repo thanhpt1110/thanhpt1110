@@ -5,7 +5,7 @@
     <li> 👨‍💻 I'm deeply passionate about developing full Mobile applications and Websites, with a strong focus on user experience, covering every stage from analysis to implementation.</li>
     <li> 🎮 Besides my coding time, I often enjoy myself in music and e-sports.</li>
     <li> 📧 Contact me for work: <a href="mailto:thanhphantuan1110@gmail.com">thanhphantuan1110@gmail.com</a></li>
-</ul>
+</ul> 
 
 ### 🔍 You can find me at
 
