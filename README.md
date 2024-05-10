@@ -74,15 +74,19 @@
 # 🏆 My Certificates
 
 <a href="https://www.coursera.org/account/accomplishments/certificate/LJ2T8Z2Z3H9P">
-    <span><img src="https://img.shields.io/badge/Object--Oriented%20Design-0056D2?style=for-the-badge&logo=Coursera&logoColor=white&labelColor=0056D2&style=flat" alt="Object-Oriented Design" title="Git" height="25" /></span>
+    <span><img src="https://img.shields.io/badge/Object--Oriented%20Design-0056D2?style=for-the-badge&logo=Coursera&logoColor=white&labelColor=0056D2&style=flat" alt="Object-Oriented Design" title="Coursera" height="25" /></span>
 </a></br><br>
 
 <a href="https://www.coursera.org/account/accomplishments/certificate/JL2XQFFYRPVJ">
-    <span><img src="https://img.shields.io/badge/Introduction%20to%20NoSQL%20Databases-0056D2?style=for-the-badge&logo=Coursera&logoColor=white&labelColor=0056D2&style=flat" alt="Introduction to NoSQL Databases" title="Git" height="25" /></span>
+    <span><img src="https://img.shields.io/badge/Introduction%20to%20NoSQL%20Databases-0056D2?style=for-the-badge&logo=Coursera&logoColor=white&labelColor=0056D2&style=flat" alt="Introduction to NoSQL Databases" title="Coursera" height="25" /></span>
+</a></br><br>
+
+<a href="https://www.coursera.org/account/accomplishments/certificate/JMZNVRB8RSH6">
+    <span><img src="https://img.shields.io/badge/Foundation%20of%20Project%20Management-0056D2?style=for-the-badge&logo=Coursera&logoColor=white&labelColor=0056D2&style=flat" alt="Foundation of Project Management" title="Coursera" height="25" /></span>
 </a></br><br>
 
 <a href="https://www.coursera.org/account/accomplishments/certificate/ZPA472KU4PUU">
-    <span><img src="https://img.shields.io/badge/Foundation%20of%20User%20Experience%20(UX)%20Design-0056D2?style=for-the-badge&logo=Coursera&logoColor=white&labelColor=0056D2&style=flat" alt="Foundation of User Experience (UX) Design" title="Git" height="25" /></span>
+    <span><img src="https://img.shields.io/badge/Foundation%20of%20User%20Experience%20(UX)%20Design-0056D2?style=for-the-badge&logo=Coursera&logoColor=white&labelColor=0056D2&style=flat" alt="Foundation of User Experience (UX) Design" title="Coursera" height="25" /></span>
 </a></br>
 
 # 📊 GitHub Stats :
