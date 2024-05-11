@@ -5,7 +5,7 @@
     <li> 👨‍💻 I'm deeply passionate about developing full Mobile applications and Websites, with a strong focus on user experience, covering every stage from analysis to implementation.</li>
     <li> 🎮 Besides my coding time, I often enjoy myself in music and e-sports.</li>
     <li> 📧 Contact me for work: <a href="mailto:thanhphantuan1110@gmail.com">thanhphantuan1110@gmail.com</a></li>
-</ul> 
+</ul>
 
 ### 🔍 You can find me at
 
@@ -17,7 +17,7 @@
 
 # 💻 Tech Stack
 
-**Programming Languages** 
+**Programming Languages**
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white) 
