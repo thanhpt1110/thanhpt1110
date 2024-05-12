@@ -1,7 +1,7 @@
-# 🙋‍♂️ About me
+<h1 align="center"> Hi guys 🙋‍♂️, I'm Tuan Thanh </h1>
 
 <ul>
-    <li>✍ I am currently pursuing a Bachelor's degree in <b>Software Engineering</b> at the <a href="https://uit.edu.vn">University of Information Technology</a> (VNU-HCM UIT)</li>
+    <li>✍ I'm currently pursuing a Bachelor's degree in <b>Software Engineering</b> at the <a href="https://uit.edu.vn">University of Information Technology</a> (VNU-HCM UIT)</li>
     <li> 👨‍💻 I'm deeply passionate about developing full Mobile applications and Websites, with a strong focus on user experience, covering every stage from analysis to implementation.</li>
     <li> 🎮 Besides my coding time, I often enjoy myself in music and e-sports.</li>
     <li> 📧 Contact me for work: <a href="mailto:thanhphantuan1110@gmail.com">thanhphantuan1110@gmail.com</a></li>
