@@ -55,8 +55,8 @@
 
 **Backend**
 
+![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
@@ -64,7 +64,7 @@
 
 **Databases**
 
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![Firebase](https://img.shields.io/badge/firebase-FF9900?style=for-the-badge&logo=firebase)
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
@@ -72,19 +72,27 @@
 
 **Testing**
 
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![Chai](https://img.shields.io/badge/chai-A30701?style=for-the-badge&logo=chai&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=Playwright&logoColor=white)
 ![Cucumber](https://img.shields.io/badge/Cucumber-43B02A?style=for-the-badge&logo=cucumber&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=Playwright&logoColor=white)
 ![ApacheJMeter](https://img.shields.io/badge/Apache%20JMeter-D22128?style=for-the-badge&logo=Apache&logoColor=white)
 
 **CI/CD Tools**
 
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939.svg?style=for-the-badge&logo=Jenkins&logoColor=white)
-![AzureDevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/Github%20Actions-231f20?style=for-the-badge&logo=githubactions&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
 
 **Cloud and Hosting**
 
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
+![RDS](https://img.shields.io/badge/RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white)
+![Route 53](https://img.shields.io/badge/Route%2053-527FFF?style=for-the-badge&logo=amazonroute53&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
@@ -118,7 +126,19 @@
 
 <a href="https://www.coursera.org/account/accomplishments/certificate/ZPA472KU4PUU">
     <span><img src="https://img.shields.io/badge/Foundation%20of%20User%20Experience%20(UX)%20Design-0056D2?style=for-the-badge&logo=Coursera&logoColor=white&labelColor=0056D2&style=flat" alt="Foundation of User Experience (UX) Design" title="Coursera" height="25" /></span>
-</a></br>
+</a></br><br>
+
+<a href="https://www.linkedin.com/learning/certificates/73fd8aefc328e6c58df65bebb4ae2fb48f101207248be062783320ad819463ef">
+    <span><img src="https://img.shields.io/badge/API%20Testing%20and%20Validation-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&style=flat" alt="API Testing and Validation" title="Linkedin" height="25" /></span>
+</a></br><br>
+
+<a href="https://www.linkedin.com/learning/certificates/656d71feeeedb13f161d88da2761e5f5b09ee3e0f711700edb08102809766539">
+    <span><img src="https://img.shields.io/badge/Programming%20Foundations:%20Software%20Testing/QA-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&style=flat" alt="Programming Foundations: Software Testing/QA" title="Linkedin" height="25" /></span>
+</a></br><br>
+
+<a href="https://www.linkedin.com/learning/certificates/5ef093ed7145c41095d8b5f139060978b0ee9260f54cda6da3025ffc6674d941">
+    <span><img src="https://img.shields.io/badge/Software%20Testing%20Foundations:%20Bug%20Writing%20and%20Management-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&style=flat" alt="Software Testing Foundations: Bug Writing and Management" title="Linkedin" height="25" /></span>
+</a></br><br>
 
 # 📊 GitHub Stats
 
