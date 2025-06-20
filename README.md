@@ -1,7 +1,7 @@
-<h1 align="center">Hi guys 🙋‍♂️, I'm Tuan Thanh</h1>
+<h1 align="center">Hi 🙋‍♂️ I'm Tuan Thanh</h1>
 
 <ul>
-    <li>✍ I'm currently pursuing a Bachelor's degree in <b>Software Engineering</b> at the <a href="https://uit.edu.vn">University of Information Technology</a> (VNU-HCM UIT)</li>
+    <li>✍ I graduated with a Bachelor's degree in <b>Software Engineering</b> from the <a href="https://uit.edu.vn">University of Information Technology (VNU-HCM UIT)</a>, with <b>academic excellence</b>.</li>
     <li> 👨‍💻 I'm deeply passionate about developing, quality assurance in full Mobile and Websites applications, focusing heavily on UI/UX and encompassing every stage from analysis to implementation.</li>
     <li> 🎮 Besides my coding time, I often enjoy myself in music and e-sports.</li>
     <li> 📧 Contact me for work: <a href="mailto:thanhphantuan1110@gmail.com">thanhphantuan1110@gmail.com</a></li>
@@ -9,10 +9,10 @@
 
 ### 🔍 You can find me at
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/thanhpt1110)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/thanhpt1110)
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/thanhpt1110)
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/c/thanhpt1110)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/thanhpt1110)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/c/thanhpt1110)
 [![SoundCloud](https://img.shields.io/badge/SoundCloud-%23E34F26.svg?logo=Soundcloud&logoColor=white)](https://soundcloud.com/thanhpt1110)
 
 # 💻 Tech Stack
@@ -20,9 +20,9 @@
 **Programming Languages**
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-007ACC?style=for-the-badge&logo=python&logoColor=white)
 
@@ -131,15 +131,15 @@
 </a></br><br>
 
 <a href="https://www.linkedin.com/learning/certificates/73fd8aefc328e6c58df65bebb4ae2fb48f101207248be062783320ad819463ef">
-    <span><img src="https://img.shields.io/badge/API%20Testing%20and%20Validation-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&style=flat" alt="API Testing and Validation" title="Linkedin" height="25" /></span>
+    <span><img src="https://custom-icon-badges.demolab.com/badge/API Testing and Validation-0A66C2?logo=linkedin-white&logoColor=fff" alt="API Testing and Validation" title="Linkedin" height="25" /></span>
 </a></br><br>
 
 <a href="https://www.linkedin.com/learning/certificates/656d71feeeedb13f161d88da2761e5f5b09ee3e0f711700edb08102809766539">
-    <span><img src="https://img.shields.io/badge/Programming%20Foundations:%20Software%20Testing/QA-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&style=flat" alt="Programming Foundations: Software Testing/QA" title="Linkedin" height="25" /></span>
+    <span><img src="https://custom-icon-badges.demolab.com/badge/Programming Foundations: Software Testing/QA-0A66C2?logo=linkedin-white&logoColor=fff" alt="Programming Foundations: Software Testing/QA" title="Linkedin" height="25" /></span>
 </a></br><br>
 
 <a href="https://www.linkedin.com/learning/certificates/5ef093ed7145c41095d8b5f139060978b0ee9260f54cda6da3025ffc6674d941">
-    <span><img src="https://img.shields.io/badge/Software%20Testing%20Foundations:%20Bug%20Writing%20and%20Management-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&style=flat" alt="Software Testing Foundations: Bug Writing and Management" title="Linkedin" height="25" /></span>
+    <span><img src="https://custom-icon-badges.demolab.com/badge/Software Testing Foundations: Bug Writing and Management-0A66C2?logo=linkedin-white&logoColor=fff" alt="Software Testing Foundations: Bug Writing and Management" title="Linkedin" height="25" /></span>
 </a></br><br>
 
 # 📊 GitHub Stats
