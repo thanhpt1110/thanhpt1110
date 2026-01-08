@@ -1,4 +1,4 @@
-<h1 align="center">Hi 🙋‍♂️ I'm Tuan Thanh</h1>
+<h1 align="center">Hi 🙋‍♂️ I'm Thanh Phan</h1>
 
 <ul>
     <li>✍ I graduated with a Bachelor's degree in <b>Software Engineering</b> from the <a href="https://uit.edu.vn">University of Information Technology (VNU-HCM UIT)</a>, with <b>academic excellence</b>.</li>
