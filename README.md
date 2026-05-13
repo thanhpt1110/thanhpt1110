@@ -1,8 +1,12 @@
-<h1 align="center">Hi 🙋‍♂️ I'm Thanh Phan</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=76B900&height=160&section=header&text=Thanh%20Phan&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=SWQA%20Test%20Development%20Engineer%20%40%20NVIDIA&descSize=16&descAlignY=60&animation=fadeIn" alt="Thanh Phan banner" width="100%"/>
+</p>
 
 <ul>
     <li>✍ I graduated with a Bachelor's degree in <b>Software Engineering</b> from the <a href="https://uit.edu.vn">University of Information Technology (VNU-HCM UIT)</a>, with <b>academic excellence</b>.</li>
-    <li> 👨‍💻 I'm deeply passionate about developing, quality assurance in full Mobile and Websites applications, focusing heavily on UI/UX and encompassing every stage from analysis to implementation.</li>
+    <li> 💼 Currently a <b>SWQA Test Development Engineer at NVIDIA</b>, driving quality and automation across NVIDIA's AI inference product lines — <a href="https://build.nvidia.com/blueprints"><b>Blueprints</b></a>, <a href="https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/"><b>LLM NIM</b></a>, and <a href="https://developer.nvidia.com/maxine"><b>AI4M NIM</b></a>.</li>
+    <li> 🤖 Deeply invested in <b>Agentic AI</b> — designing MCP servers, custom skills, and prompt-driven workflows that automate every layer of engineering work.</li>
+    <li> 👨‍💻 Strong background in full-stack Mobile and Web development &amp; quality assurance, focusing heavily on UI/UX and the entire SDLC from analysis to deployment.</li>
     <li> 🎮 Besides my coding time, I often enjoy myself in music and e-sports.</li>
     <li> 📧 Contact me for work: <a href="mailto:thanhphantuan1110@gmail.com">thanhphantuan1110@gmail.com</a></li>
 </ul>
@@ -19,12 +23,58 @@
 
 **Programming Languages**
 
+![Python](https://img.shields.io/badge/Python-007ACC?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-007ACC?style=for-the-badge&logo=python&logoColor=white)
+
+**AI · Agentic · MCP**
+
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-1a1a1a?style=for-the-badge&logo=anthropic&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP%20Servers%20%26%20Skills-412991?style=for-the-badge&logo=anthropic&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-10A37F?style=for-the-badge&logo=openai&logoColor=white)
+![Agentic AI](https://img.shields.io/badge/Agentic%20AI-FF6F00?style=for-the-badge&logo=robotframework&logoColor=white)
+![NVIDIA NIM](https://img.shields.io/badge/NVIDIA%20NIM-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+
+**Infrastructure · DevOps · Systems**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![k9s](https://img.shields.io/badge/k9s-0E76A8?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+**Testing & Quality Assurance**
+
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Chai](https://img.shields.io/badge/chai-A30701?style=for-the-badge&logo=chai&logoColor=white)
+![Cucumber](https://img.shields.io/badge/Cucumber-43B02A?style=for-the-badge&logo=cucumber&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=Playwright&logoColor=white)
+![ApacheJMeter](https://img.shields.io/badge/Apache%20JMeter-D22128?style=for-the-badge&logo=Apache&logoColor=white)
+
+**CI/CD & Automation**
+
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939.svg?style=for-the-badge&logo=Jenkins&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/Github%20Actions-231f20?style=for-the-badge&logo=githubactions&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
+
+**Cloud and Hosting**
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
+![RDS](https://img.shields.io/badge/RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white)
+![Route 53](https://img.shields.io/badge/Route%2053-527FFF?style=for-the-badge&logo=amazonroute53&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
 **Web Development**
 
@@ -47,13 +97,6 @@
 ![XAML](https://img.shields.io/badge/xaml-0052CC?style=for-the-badge&logo=xaml&logoColor=white)
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 
-**Blockchain**
-
-![Solidity](https://img.shields.io/badge/Solidity-e6e6e6?style=for-the-badge&logo=solidity&logoColor=black)
-![Hardhat](https://img.shields.io/badge/Hardhat-F2C811?style=for-the-badge&logo=Hardhat&logoColor=white)
-![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?logo=OpenZeppelin&logoColor=fff&style=for-the-badge)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
-
 **Backend**
 
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
@@ -72,31 +115,12 @@
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-07405E?style=for-the-badge&logo=PostgreSQL&logoColor=white)
 
-**Testing**
+**Blockchain**
 
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Chai](https://img.shields.io/badge/chai-A30701?style=for-the-badge&logo=chai&logoColor=white)
-![Cucumber](https://img.shields.io/badge/Cucumber-43B02A?style=for-the-badge&logo=cucumber&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=Playwright&logoColor=white)
-![ApacheJMeter](https://img.shields.io/badge/Apache%20JMeter-D22128?style=for-the-badge&logo=Apache&logoColor=white)
-
-**CI/CD Tools**
-
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939.svg?style=for-the-badge&logo=Jenkins&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/Github%20Actions-231f20?style=for-the-badge&logo=githubactions&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
-
-**Cloud and Hosting**
-
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![EC2](https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
-![RDS](https://img.shields.io/badge/RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white)
-![Route 53](https://img.shields.io/badge/Route%2053-527FFF?style=for-the-badge&logo=amazonroute53&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![Solidity](https://img.shields.io/badge/Solidity-e6e6e6?style=for-the-badge&logo=solidity&logoColor=black)
+![Hardhat](https://img.shields.io/badge/Hardhat-F2C811?style=for-the-badge&logo=Hardhat&logoColor=white)
+![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?logo=OpenZeppelin&logoColor=fff&style=for-the-badge)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
 
 **Analysis and Design**
 
@@ -113,6 +137,22 @@
 ![GitHubCopilot](https://img.shields.io/badge/github%20copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
 
 # 🏆 My Certificates
+
+<a href="https://academy.nvidia.com/mod/certificate/view.php?id=18980&action=get">
+    <span><img src="https://img.shields.io/badge/AI%20for%20All:%20From%20Basics%20to%20GenAI%20Practice-76B900?style=for-the-badge&logo=nvidia&logoColor=white&labelColor=76B900&style=flat" alt="AI for All: From Basics to GenAI Practice" title="NVIDIA" height="25" /></span>
+</a></br><br>
+
+<a href="https://www.hackerrank.com/certificates/8a8f820ed044">
+    <span><img src="https://img.shields.io/badge/Software%20Engineer%20Certificate-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=2EC866&style=flat" alt="Software Engineer Certificate" title="HackerRank" height="25" /></span>
+</a></br><br>
+
+<a href="https://www.hackerrank.com/certificates/d47a173225a1">
+    <span><img src="https://img.shields.io/badge/Python%20(Basic)%20Certificate-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=2EC866&style=flat" alt="Python (Basic) Certificate" title="HackerRank" height="25" /></span>
+</a></br><br>
+
+<a href="https://bcert.me/bc/html/show-badge.html?b=sggshyfj">
+    <span><img src="https://img.shields.io/badge/Certified%20ScrumMaster®%20(CSM)-009FDA?style=for-the-badge&logo=scrumalliance&logoColor=white&labelColor=009FDA&style=flat" alt="Certified ScrumMaster®" title="Scrum Alliance" height="25" /></span>
+</a></br><br>
 
 <a href="https://www.coursera.org/account/accomplishments/certificate/LJ2T8Z2Z3H9P">
     <span><img src="https://img.shields.io/badge/Object--Oriented%20Design-0056D2?style=for-the-badge&logo=Coursera&logoColor=white&labelColor=0056D2&style=flat" alt="Object-Oriented Design" title="Coursera" height="25" /></span>
