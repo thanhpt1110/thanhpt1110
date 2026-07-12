@@ -37,6 +37,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://cdn.simpleicons.org" />
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
 
 <style>
@@ -67,6 +68,7 @@
     --term-muted: #7d8a6a;
     /* categorical series (language bar) — validated for light surface */
     --s1: #2a78d6; --s2: #1baf7a; --s3: #eda100; --s4: #008300; --s5: #4a3aa7; --s6: #e34948;
+    --chip-border: rgba(31, 35, 40, 0.15);
   }
 
   html[data-theme="dark"] {
@@ -89,6 +91,7 @@
     --term-muted: #6f7d5b;
     /* categorical series stepped for the dark surface */
     --s1: #3987e5; --s2: #199e70; --s3: #c98500; --s4: #008300; --s5: #9085e9; --s6: #e66767;
+    --chip-border: rgba(230, 237, 243, 0.18);
   }
 
   /* No-JS / pre-paint fallback: dark systems get dark tokens unless light is chosen */
@@ -112,6 +115,7 @@
       --term-text: #cfe6ac;
       --term-muted: #6f7d5b;
       --s1: #3987e5; --s2: #199e70; --s3: #c98500; --s4: #008300; --s5: #9085e9; --s6: #e66767;
+      --chip-border: rgba(230, 237, 243, 0.18);
     }
   }
 
@@ -323,17 +327,15 @@
   .social {
     width: 42px; height: 42px;
     border-radius: var(--radius-sm);
-    border: 1px solid var(--border);
-    background: var(--surface);
-    color: var(--text-muted);
+    border: 1px solid var(--chip-border);
+    background: var(--sbg, var(--surface));
+    color: #ffffff;
     display: inline-grid; place-items: center;
-    transition: transform .12s ease, border-color .15s ease, color .15s ease, background .15s ease;
+    transition: transform .12s ease, filter .15s ease;
   }
   .social:hover {
-    color: var(--accent);
-    border-color: var(--accent-brand);
-    background: var(--accent-soft);
     transform: translateY(-2px);
+    filter: brightness(1.12);
     text-decoration: none;
   }
   .social svg { width: 20px; height: 20px; }
@@ -450,20 +452,21 @@
   .chip {
     font-family: var(--mono);
     font-size: 0.76rem;
+    font-weight: 500;
     line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     padding: 6px 9px;
     border-radius: 6px;
-    border: 1px solid var(--border);
-    background: var(--surface-2);
-    color: var(--text);
+    border: 1px solid var(--chip-border);
+    background: var(--cbg, var(--surface-2));
+    color: var(--cink, var(--text));
     white-space: nowrap;
-    transition: border-color .15s ease, color .15s ease, background .15s ease;
+    transition: transform .12s ease, filter .15s ease;
   }
-  .chip:hover {
-    border-color: var(--accent-brand);
-    color: var(--accent);
-    background: var(--accent-soft);
-  }
+  .chip img { width: 13px; height: 13px; display: block; flex: 0 0 auto; }
+  .chip:hover { transform: translateY(-1px); filter: brightness(1.12); }
 
   /* Certificates */
   .cert-grid {
@@ -492,13 +495,14 @@
   .cert .issuer {
     font-family: var(--mono);
     font-size: 0.68rem;
+    font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: var(--accent);
-    padding: 3px 7px;
-    border: 1px solid var(--accent-line);
+    color: var(--iink, var(--accent));
+    padding: 4px 8px;
+    border: 1px solid var(--chip-border);
     border-radius: 5px;
-    background: var(--accent-soft);
+    background: var(--ibg, var(--accent-soft));
   }
   .cert .ext { color: var(--text-muted); flex: 0 0 auto; }
   .cert:hover .ext { color: var(--accent); }
@@ -720,23 +724,23 @@
           </a>
         </div>
         <nav class="socials" aria-label="Social links">
-          <a class="social" href="https://www.linkedin.com/in/thanhpt1110" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+          <a class="social" style="--sbg:#0A66C2" href="https://www.linkedin.com/in/thanhpt1110" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
           </a>
-          <a class="social" href="https://facebook.com/thanhpt1110" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
+          <a class="social" style="--sbg:#1877F2" href="https://facebook.com/thanhpt1110" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.49 0-1.96.93-1.96 1.89v2.25h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg>
           </a>
-          <a class="social" href="https://instagram.com/thanhpt1110" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+          <a class="social" style="--sbg:#E4405F" href="https://instagram.com/thanhpt1110" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <rect x="2.5" y="2.5" width="19" height="19" rx="5.2" stroke="currentColor" stroke-width="1.9"/>
               <circle cx="12" cy="12" r="4.4" stroke="currentColor" stroke-width="1.9"/>
               <circle cx="17.4" cy="6.6" r="1.25" fill="currentColor"/>
             </svg>
           </a>
-          <a class="social" href="https://youtube.com/c/thanhpt1110" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">
+          <a class="social" style="--sbg:#FF0000" href="https://youtube.com/c/thanhpt1110" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.08 0 12 0 12s0 3.92.5 5.81a3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14C24 15.92 24 12 24 12s0-3.92-.5-5.81zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"/></svg>
           </a>
-          <a class="social" href="https://soundcloud.com/thanhpt1110" target="_blank" rel="noopener" aria-label="SoundCloud" title="SoundCloud">
+          <a class="social" style="--sbg:#E34F26" href="https://soundcloud.com/thanhpt1110" target="_blank" rel="noopener" aria-label="SoundCloud" title="SoundCloud">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <rect x="2.5" y="12" width="1.5" height="6" rx="0.75"/>
               <rect x="5.5" y="9.5" width="1.5" height="8.5" rx="0.75"/>
@@ -744,7 +748,7 @@
               <path d="M12 18h6.4a3.4 3.4 0 1 0-.66-6.74A5.2 5.2 0 0 0 12 8.9V18z"/>
             </svg>
           </a>
-          <a class="social" href="mailto:thanhphantuan1110@gmail.com" aria-label="Email" title="Email">
+          <a class="social" style="--sbg:#EA4335" href="mailto:thanhphantuan1110@gmail.com" aria-label="Email" title="Email">
             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <rect x="2.5" y="4.5" width="19" height="15" rx="2" stroke="currentColor" stroke-width="1.8"/>
               <path d="M3.2 6.5l8.8 6 8.8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
@@ -810,99 +814,144 @@
         <div class="stack-card">
           <h3>Programming Languages</h3>
           <div class="chips">
-            <span class="chip">Python</span><span class="chip">C++</span><span class="chip">TypeScript</span>
-            <span class="chip">C#</span><span class="chip">JavaScript</span><span class="chip">Java</span>
+            <span class="chip" style="--cbg:#007ACC;--cink:#fff"><img src="https://cdn.simpleicons.org/python/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Python</span>
+            <span class="chip" style="--cbg:#00599C;--cink:#fff"><img src="https://cdn.simpleicons.org/cplusplus/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />C++</span>
+            <span class="chip" style="--cbg:#007ACC;--cink:#fff"><img src="https://cdn.simpleicons.org/typescript/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />TypeScript</span>
+            <span class="chip" style="--cbg:#239120;--cink:#fff"><img src="https://cdn.simpleicons.org/sharp/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />C#</span>
+            <span class="chip" style="--cbg:#F7DF1E;--cink:#000"><img src="https://cdn.simpleicons.org/javascript/000000" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />JavaScript</span>
+            <span class="chip" style="--cbg:#ED8B00;--cink:#000"><img src="https://cdn.simpleicons.org/openjdk/000000" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Java</span>
           </div>
         </div>
         <div class="stack-card">
           <h3>AI Agents · MCP · Prompt Engineering</h3>
           <div class="chips">
-            <span class="chip">Claude</span><span class="chip">Claude Code</span><span class="chip">Codex</span>
-            <span class="chip">Cursor</span><span class="chip">MCP Servers &amp; Skills</span>
-            <span class="chip">Prompt Engineering</span><span class="chip">Agentic AI</span><span class="chip">NVIDIA NIM</span>
+            <span class="chip" style="--cbg:#D97757;--cink:#fff"><img src="https://cdn.simpleicons.org/claude/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Claude</span>
+            <span class="chip" style="--cbg:#1a1a1a;--cink:#fff"><img src="https://cdn.simpleicons.org/claude/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Claude Code</span>
+            <span class="chip" style="--cbg:#412991;--cink:#fff">Codex</span>
+            <span class="chip" style="--cbg:#000000;--cink:#fff"><img src="https://cdn.simpleicons.org/cursor/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Cursor</span>
+            <span class="chip" style="--cbg:#412991;--cink:#fff"><img src="https://cdn.simpleicons.org/modelcontextprotocol/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />MCP Servers &amp; Skills</span>
+            <span class="chip" style="--cbg:#10A37F;--cink:#fff">Prompt Engineering</span>
+            <span class="chip" style="--cbg:#FF6F00;--cink:#fff"><img src="https://cdn.simpleicons.org/robotframework/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Agentic AI</span>
+            <span class="chip" style="--cbg:#76B900;--cink:#000"><img src="https://cdn.simpleicons.org/nvidia/000000" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />NVIDIA NIM</span>
           </div>
         </div>
         <div class="stack-card">
           <h3>Infrastructure · DevOps · Systems</h3>
           <div class="chips">
-            <span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">k9s</span>
-            <span class="chip">Ansible</span><span class="chip">Linux</span><span class="chip">Bash</span>
+            <span class="chip" style="--cbg:#2496ED;--cink:#fff"><img src="https://cdn.simpleicons.org/docker/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Docker</span>
+            <span class="chip" style="--cbg:#326CE5;--cink:#fff"><img src="https://cdn.simpleicons.org/kubernetes/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Kubernetes</span>
+            <span class="chip" style="--cbg:#0E76A8;--cink:#fff"><img src="https://cdn.simpleicons.org/kubernetes/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />k9s</span>
+            <span class="chip" style="--cbg:#EE0000;--cink:#fff"><img src="https://cdn.simpleicons.org/ansible/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Ansible</span>
+            <span class="chip" style="--cbg:#FCC624;--cink:#000"><img src="https://cdn.simpleicons.org/linux/000000" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Linux</span>
+            <span class="chip" style="--cbg:#4EAA25;--cink:#fff"><img src="https://cdn.simpleicons.org/gnubash/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Bash</span>
           </div>
         </div>
         <div class="stack-card">
           <h3>Testing Frameworks · Quality Engineering</h3>
           <div class="chips">
-            <span class="chip">pytest</span><span class="chip">Postman</span><span class="chip">Jest</span>
-            <span class="chip">Chai</span><span class="chip">Cucumber</span><span class="chip">Playwright</span>
-            <span class="chip">Apache JMeter</span>
+            <span class="chip" style="--cbg:#0A9EDC;--cink:#fff"><img src="https://cdn.simpleicons.org/pytest/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />pytest</span>
+            <span class="chip" style="--cbg:#FF6C37;--cink:#fff"><img src="https://cdn.simpleicons.org/postman/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Postman</span>
+            <span class="chip" style="--cbg:#C21325;--cink:#fff"><img src="https://cdn.simpleicons.org/jest/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Jest</span>
+            <span class="chip" style="--cbg:#A30701;--cink:#fff"><img src="https://cdn.simpleicons.org/chai/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Chai</span>
+            <span class="chip" style="--cbg:#43B02A;--cink:#fff"><img src="https://cdn.simpleicons.org/cucumber/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Cucumber</span>
+            <span class="chip" style="--cbg:#45ba4b;--cink:#000">Playwright</span>
+            <span class="chip" style="--cbg:#D22128;--cink:#fff"><img src="https://cdn.simpleicons.org/apachejmeter/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Apache JMeter</span>
           </div>
         </div>
         <div class="stack-card">
           <h3>CI/CD · Automation</h3>
           <div class="chips">
-            <span class="chip">Jenkins</span><span class="chip">GitHub Actions</span><span class="chip">Azure DevOps</span>
+            <span class="chip" style="--cbg:#D24939;--cink:#fff"><img src="https://cdn.simpleicons.org/jenkins/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Jenkins</span>
+            <span class="chip" style="--cbg:#231f20;--cink:#fff"><img src="https://cdn.simpleicons.org/githubactions/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />GitHub Actions</span>
+            <span class="chip" style="--cbg:#0078D7;--cink:#fff">Azure DevOps</span>
           </div>
         </div>
         <div class="stack-card">
           <h3>Cloud · Hosting</h3>
           <div class="chips">
-            <span class="chip">AWS</span><span class="chip">EC2</span><span class="chip">RDS</span>
-            <span class="chip">Route 53</span><span class="chip">Cloudinary</span><span class="chip">Vercel</span>
-            <span class="chip">Netlify</span>
+            <span class="chip" style="--cbg:#FF9900;--cink:#000">AWS</span>
+            <span class="chip" style="--cbg:#FF9900;--cink:#000">EC2</span>
+            <span class="chip" style="--cbg:#527FFF;--cink:#fff">RDS</span>
+            <span class="chip" style="--cbg:#527FFF;--cink:#fff">Route 53</span>
+            <span class="chip" style="--cbg:#3448C5;--cink:#fff"><img src="https://cdn.simpleicons.org/cloudinary/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Cloudinary</span>
+            <span class="chip" style="--cbg:#000000;--cink:#fff"><img src="https://cdn.simpleicons.org/vercel/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Vercel</span>
+            <span class="chip" style="--cbg:#00C7B7;--cink:#000"><img src="https://cdn.simpleicons.org/netlify/000000" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Netlify</span>
           </div>
         </div>
         <div class="stack-card">
           <h3>Frontend · Web Development</h3>
           <div class="chips">
-            <span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">TailwindCSS</span>
-            <span class="chip">React</span><span class="chip">Redux</span><span class="chip">Axios</span>
-            <span class="chip">Chart.js</span>
+            <span class="chip" style="--cbg:#E34F26;--cink:#fff"><img src="https://cdn.simpleicons.org/html5/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />HTML5</span>
+            <span class="chip" style="--cbg:#1572B6;--cink:#fff"><img src="https://cdn.simpleicons.org/css/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />CSS3</span>
+            <span class="chip" style="--cbg:#38B2AC;--cink:#fff"><img src="https://cdn.simpleicons.org/tailwindcss/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />TailwindCSS</span>
+            <span class="chip" style="--cbg:#20232a;--cink:#fff"><img src="https://cdn.simpleicons.org/react/61DAFB" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />React</span>
+            <span class="chip" style="--cbg:#593d88;--cink:#fff"><img src="https://cdn.simpleicons.org/redux/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Redux</span>
+            <span class="chip" style="--cbg:#671ddf;--cink:#fff"><img src="https://cdn.simpleicons.org/axios/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Axios</span>
+            <span class="chip" style="--cbg:#F5788D;--cink:#fff"><img src="https://cdn.simpleicons.org/chartdotjs/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Chart.js</span>
           </div>
         </div>
         <div class="stack-card">
           <h3>Mobile App Development</h3>
           <div class="chips">
-            <span class="chip">React Native</span><span class="chip">Android Studio</span><span class="chip">Expo</span>
+            <span class="chip" style="--cbg:#20232a;--cink:#fff"><img src="https://cdn.simpleicons.org/react/61DAFB" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />React Native</span>
+            <span class="chip" style="--cbg:#3DDC84;--cink:#000"><img src="https://cdn.simpleicons.org/androidstudio/000000" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Android Studio</span>
+            <span class="chip" style="--cbg:#1C1E24;--cink:#fff"><img src="https://cdn.simpleicons.org/expo/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Expo</span>
           </div>
         </div>
         <div class="stack-card">
           <h3>Desktop App Development</h3>
           <div class="chips">
-            <span class="chip">XAML</span><span class="chip">.NET</span>
+            <span class="chip" style="--cbg:#0052CC;--cink:#fff">XAML</span>
+            <span class="chip" style="--cbg:#5C2D91;--cink:#fff"><img src="https://cdn.simpleicons.org/dotnet/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />.NET</span>
           </div>
         </div>
         <div class="stack-card">
           <h3>Backend Development</h3>
           <div class="chips">
-            <span class="chip">.NET</span><span class="chip">Node.js</span><span class="chip">Express.js</span>
-            <span class="chip">NPM</span><span class="chip">Socket.io</span><span class="chip">JWT</span>
+            <span class="chip" style="--cbg:#5C2D91;--cink:#fff"><img src="https://cdn.simpleicons.org/dotnet/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />.NET</span>
+            <span class="chip" style="--cbg:#6DA55F;--cink:#fff"><img src="https://cdn.simpleicons.org/nodedotjs/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Node.js</span>
+            <span class="chip" style="--cbg:#404d59;--cink:#fff"><img src="https://cdn.simpleicons.org/express/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Express.js</span>
+            <span class="chip" style="--cbg:#000000;--cink:#fff"><img src="https://cdn.simpleicons.org/npm/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />NPM</span>
+            <span class="chip" style="--cbg:#010101;--cink:#fff"><img src="https://cdn.simpleicons.org/socketdotio/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Socket.io</span>
+            <span class="chip" style="--cbg:#000000;--cink:#fff"><img src="https://cdn.simpleicons.org/jsonwebtokens/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />JWT</span>
           </div>
         </div>
         <div class="stack-card">
           <h3>Databases</h3>
           <div class="chips">
-            <span class="chip">Firebase</span><span class="chip">Microsoft SQL Server</span><span class="chip">MongoDB</span>
-            <span class="chip">MySQL</span><span class="chip">SQLite</span><span class="chip">PostgreSQL</span>
+            <span class="chip" style="--cbg:#FF9900;--cink:#000"><img src="https://cdn.simpleicons.org/firebase/000000" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Firebase</span>
+            <span class="chip" style="--cbg:#CC2927;--cink:#fff">Microsoft SQL Server</span>
+            <span class="chip" style="--cbg:#4ea94b;--cink:#fff"><img src="https://cdn.simpleicons.org/mongodb/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />MongoDB</span>
+            <span class="chip" style="--cbg:#0000ff;--cink:#fff"><img src="https://cdn.simpleicons.org/mysql/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />MySQL</span>
+            <span class="chip" style="--cbg:#07405E;--cink:#fff"><img src="https://cdn.simpleicons.org/sqlite/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />SQLite</span>
+            <span class="chip" style="--cbg:#07405E;--cink:#fff"><img src="https://cdn.simpleicons.org/postgresql/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />PostgreSQL</span>
           </div>
         </div>
         <div class="stack-card">
           <h3>Blockchain</h3>
           <div class="chips">
-            <span class="chip">Solidity</span><span class="chip">Hardhat</span><span class="chip">OpenZeppelin</span>
-            <span class="chip">Ethereum</span>
+            <span class="chip" style="--cbg:#e6e6e6;--cink:#000"><img src="https://cdn.simpleicons.org/solidity/000000" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Solidity</span>
+            <span class="chip" style="--cbg:#F2C811;--cink:#000">Hardhat</span>
+            <span class="chip" style="--cbg:#4E5EE4;--cink:#fff"><img src="https://cdn.simpleicons.org/openzeppelin/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />OpenZeppelin</span>
+            <span class="chip" style="--cbg:#3C3C3D;--cink:#fff"><img src="https://cdn.simpleicons.org/ethereum/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Ethereum</span>
           </div>
         </div>
         <div class="stack-card">
           <h3>Analysis · System Design</h3>
           <div class="chips">
-            <span class="chip">UML</span><span class="chip">Figma</span><span class="chip">Canva</span>
+            <span class="chip" style="--cbg:#593d88;--cink:#fff"><img src="https://cdn.simpleicons.org/uml/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />UML</span>
+            <span class="chip" style="--cbg:#F24E1E;--cink:#fff"><img src="https://cdn.simpleicons.org/figma/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Figma</span>
+            <span class="chip" style="--cbg:#00C4CC;--cink:#000">Canva</span>
           </div>
         </div>
         <div class="stack-card">
           <h3>Productivity · Collaboration Tools</h3>
           <div class="chips">
-            <span class="chip">Jira</span><span class="chip">Trello</span><span class="chip">Microsoft Word</span>
-            <span class="chip">ChatGPT</span><span class="chip">GitHub Copilot</span>
+            <span class="chip" style="--cbg:#0052CC;--cink:#fff"><img src="https://cdn.simpleicons.org/jira/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Jira</span>
+            <span class="chip" style="--cbg:#0052CC;--cink:#fff"><img src="https://cdn.simpleicons.org/trello/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />Trello</span>
+            <span class="chip" style="--cbg:#2B579A;--cink:#fff">Microsoft Word</span>
+            <span class="chip" style="--cbg:#74aa9c;--cink:#fff">ChatGPT</span>
+            <span class="chip" style="--cbg:#000000;--cink:#fff"><img src="https://cdn.simpleicons.org/githubcopilot/ffffff" alt="" width="13" height="13" loading="lazy" onerror="this.remove()" />GitHub Copilot</span>
           </div>
         </div>
       </div>
@@ -918,67 +967,67 @@
       </div>
       <div class="cert-grid">
         <a class="cert" href="https://academy.nvidia.com/mod/certificate/view.php?id=18980&action=get" target="_blank" rel="noopener">
-          <div class="top"><span class="issuer">NVIDIA</span>
+          <div class="top"><span class="issuer" style="--ibg:#76B900;--iink:#10151c">NVIDIA</span>
             <svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="name">AI for All: From Basics to GenAI Practice</div>
         </a>
         <a class="cert" href="https://www.hackerrank.com/certificates/8a8f820ed044" target="_blank" rel="noopener">
-          <div class="top"><span class="issuer">HackerRank</span>
+          <div class="top"><span class="issuer" style="--ibg:#2EC866;--iink:#10151c">HackerRank</span>
             <svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="name">Software Engineer Certificate</div>
         </a>
         <a class="cert" href="https://www.hackerrank.com/certificates/d47a173225a1" target="_blank" rel="noopener">
-          <div class="top"><span class="issuer">HackerRank</span>
+          <div class="top"><span class="issuer" style="--ibg:#2EC866;--iink:#10151c">HackerRank</span>
             <svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="name">Python (Basic) Certificate</div>
         </a>
         <a class="cert" href="https://bcert.me/bc/html/show-badge.html?b=sggshyfj" target="_blank" rel="noopener">
-          <div class="top"><span class="issuer">Scrum Alliance</span>
+          <div class="top"><span class="issuer" style="--ibg:#009FDA;--iink:#fff">Scrum Alliance</span>
             <svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="name">Certified ScrumMaster&reg; (CSM)</div>
         </a>
         <a class="cert" href="https://www.coursera.org/account/accomplishments/certificate/LJ2T8Z2Z3H9P" target="_blank" rel="noopener">
-          <div class="top"><span class="issuer">Coursera</span>
+          <div class="top"><span class="issuer" style="--ibg:#0056D2;--iink:#fff">Coursera</span>
             <svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="name">Object-Oriented Design</div>
         </a>
         <a class="cert" href="https://www.coursera.org/account/accomplishments/certificate/JL2XQFFYRPVJ" target="_blank" rel="noopener">
-          <div class="top"><span class="issuer">Coursera</span>
+          <div class="top"><span class="issuer" style="--ibg:#0056D2;--iink:#fff">Coursera</span>
             <svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="name">Introduction to NoSQL Databases</div>
         </a>
         <a class="cert" href="https://www.coursera.org/account/accomplishments/certificate/JMZNVRB8RSH6" target="_blank" rel="noopener">
-          <div class="top"><span class="issuer">Coursera</span>
+          <div class="top"><span class="issuer" style="--ibg:#0056D2;--iink:#fff">Coursera</span>
             <svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="name">Foundation of Project Management</div>
         </a>
         <a class="cert" href="https://www.coursera.org/account/accomplishments/certificate/ZPA472KU4PUU" target="_blank" rel="noopener">
-          <div class="top"><span class="issuer">Coursera</span>
+          <div class="top"><span class="issuer" style="--ibg:#0056D2;--iink:#fff">Coursera</span>
             <svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="name">Foundation of User Experience (UX) Design</div>
         </a>
         <a class="cert" href="https://www.linkedin.com/learning/certificates/73fd8aefc328e6c58df65bebb4ae2fb48f101207248be062783320ad819463ef" target="_blank" rel="noopener">
-          <div class="top"><span class="issuer">LinkedIn</span>
+          <div class="top"><span class="issuer" style="--ibg:#0A66C2;--iink:#fff">LinkedIn</span>
             <svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="name">API Testing and Validation</div>
         </a>
         <a class="cert" href="https://www.linkedin.com/learning/certificates/656d71feeeedb13f161d88da2761e5f5b09ee3e0f711700edb08102809766539" target="_blank" rel="noopener">
-          <div class="top"><span class="issuer">LinkedIn</span>
+          <div class="top"><span class="issuer" style="--ibg:#0A66C2;--iink:#fff">LinkedIn</span>
             <svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="name">Programming Foundations: Software Testing / QA</div>
         </a>
         <a class="cert" href="https://www.linkedin.com/learning/certificates/5ef093ed7145c41095d8b5f139060978b0ee9260f54cda6da3025ffc6674d941" target="_blank" rel="noopener">
-          <div class="top"><span class="issuer">LinkedIn</span>
+          <div class="top"><span class="issuer" style="--ibg:#0A66C2;--iink:#fff">LinkedIn</span>
             <svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="name">Software Testing Foundations: Bug Writing and Management</div>
