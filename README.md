@@ -189,7 +189,7 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg" />
   <img src="assets/github-stats-light.svg" alt="Thanh Phan's GitHub stats" />
 </picture><br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=thanhpt1110&theme=react&hide_border=false)<br/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=thanhpt1110&theme=react&hide_border=false" alt="Thanh Phan's GitHub streak" /><br/>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/top-langs-dark.svg" />
   <img src="assets/top-langs-light.svg" alt="Thanh Phan's most used languages" />
